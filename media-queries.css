@@ -1,0 +1,157 @@
+@media screen and (max-width:991px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+       position: absolute;
+       background-color: white;
+       left: -100%;
+       top: 120px;
+       width: 100%;
+       padding-block: 20px;
+       transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+    .example-card-1 {
+        width: 45%;
+        height: 180px;
+    }
+    .example-card-2 {
+        width: 45%;
+        height: 180px;
+    } .example-card-3 {
+        width: 45%;
+        margin-top: 30px;
+        height: 180px;
+    } .example-card-4 {
+        width: 45%;
+        margin-top: 30px;
+        height: 180px;
+        
+    }
+    .example-area h3 {
+        font-size: 20px;
+    }
+    .cta-section {
+      
+        padding-block: 50px;
+    }
+    
+    .cta-section p {
+        text-align: center;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .company-logo img {
+        width: 250px;
+    }
+   
+}
+
+@media screen and (max-width:767px) {
+    .header-section {
+        gap: 20px;
+   
+    }
+    .nav-links {
+        top: 200px;
+    }
+
+    .primary-button,  .header-left a {
+        width: 70%;
+        text-align: center;
+    }
+    .company-logo img {
+        width: 200px;
+    }
+    .header-section {
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .logo {
+        height: 40px;
+    }
+    .logos{
+        padding-block: 10px;
+    }
+    .features-section {
+        padding: 50px var(--padding-inline-section) 0;
+    }
+    .featuers-card {
+        min-width: calc(50%-10px);
+         width: 40%;
+    }
+
+    .big-featuer-container {
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 50px;
+    }
+    .design {
+        padding-bottom: 50px;
+    }
+    .design img {
+        width: 100%;
+       }
+       .features-section{
+        background-size: 800px;
+        background-position: center center;
+       }
+
+    .marketers {
+        flex-direction: column-reverse;
+    }
+    .marketers img {
+        width: 100%;
+    }
+    .text-marketers {
+        padding-bottom: 50px;
+    }
+
+    .feature-product {
+        flex-direction: column;
+    }
+
+    .feature-product img {
+        width: 100%;
+    }
+    
+    .footer-content {
+       align-items: center;
+        flex-direction: column;
+    }
+    .link-column {
+        align-items:center;
+    }
+    .footer-sub {
+      
+    gap: 20px;
+    padding-bottom: 30px;
+    }
+
+    .sub-footer {
+        justify-content: center;
+    }
+    .footer-sub  {
+        justify-content: center;
+    }
+}
